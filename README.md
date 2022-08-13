@@ -13,6 +13,8 @@ By: Valentin Osorio
 
 Para correr el proyecto localmente necesitarás instalar MS sql server en tu entorno local, crear un usuario y alguans configuraciones extra (posiblemete en un futuro cambiar a MySQL que es más facil) para luego crear la tabla producto
 
+Luego configurar variables de entorno en un file .env en la carpeta backend (esto por razones de seguridad)
+
 Luego de esto hacer npm instal en cada una de las carpetas (frontend y backend) esto con el fin de instalar todas las dependencias necesarias para correr el proyecto
 
 Ahora, solo basta con ejectur el servidor y el cliente
