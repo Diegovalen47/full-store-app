@@ -6,12 +6,6 @@ import { About } from "./pages/About";
 import { Navbar } from "./components/Navbar";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 
-type storeItem = {
-  id: number
-  name: string
-  price: number
-}
-
 function App() {
   return (
     <ShoppingCartProvider>

@@ -3,7 +3,12 @@ import { NavLink } from "react-router-dom";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 
 export function Navbar() {
-
+  
+  // Este es un ejemplo de como el componenete NavBar
+  // que es hijo de ShoppinfCartProvider
+  // utiliza cosas definidas en el context
+  // por ellos esto se comparte en los componente
+  // de forma global
   const { openCart, cartQuantity } = useShoppingCart()
 
   return (
