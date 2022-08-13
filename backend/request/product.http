@@ -1,0 +1,31 @@
+@api = http://localhost:4000/product 
+
+### getting all products
+GET {{api}}
+
+### creating new product
+POST {{api}}
+Content-Type: application/json
+
+{
+  "name": "Ryzen 5 5600x",
+  "price": 790000
+}
+
+### getting product by id
+GET {{api}}/7
+
+### deleting prouduc by id
+DELETE {{api}}/8
+
+### getting total products
+GET {{api}}/count
+
+### updating product by id
+PUT {{api}}/8
+Content-Type: application/json
+
+{
+  "name": "Banano",
+  "price": 15.2
+}
